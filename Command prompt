@@ -1,0 +1,3 @@
+dism /image:C:\ /cleanup-image /revertpendingactions
+cd C:\Windows\WinSxS
+move pending.xml pending.old
